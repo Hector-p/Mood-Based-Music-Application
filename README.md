@@ -61,18 +61,6 @@ The frontend runs on `http://127.0.0.1:5173` by default.
 
 For local development, the frontend can use `/api` and rely on the Vite proxy.
 
-## GitHub Push Checklist
 
-- Secrets are excluded through the root `.gitignore`
-- `node_modules`, `dist`, databases, caches, and local editor files are ignored
-- Example env files are included instead of real secrets
 
-## Suggested First Push
 
-```powershell
-git add .
-git commit -m "Initial project setup"
-git branch -M main
-git remote add origin <your-repo-url>
-git push -u origin main
-```
