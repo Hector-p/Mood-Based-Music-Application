@@ -1,0 +1,48 @@
+.git/
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+static/node_modules/
+static/dist/
+.vite/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+static/.env
+static/.env.*
+!static/.env.example
+
+# Databases and runtime files
+*.db
+*.sqlite
+*.sqlite3
+backend/instance/
+
+# Build artifacts / archives
+*.zip
+
+# Project-local generated files
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/routes/__pycache__/
+backend/app/utils/__pycache__/
